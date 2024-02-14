@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.card-container {
+    width: 80%;
+    height: 90%;
+    box-shadow: 2px 2px 5px 5px lightblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.bg-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+input,
+select {
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 150px;
+}
+
+input,
+select:focus {
+    outline: none
+}
+
+label {
+    color: #a89b89;
+}
+
+.input-field {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#result {
+    width: 100%;
+}
